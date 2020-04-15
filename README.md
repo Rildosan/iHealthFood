@@ -79,15 +79,16 @@ Uma boa prática é sinalizar os itens do Backlog que estão prontos para serem 
 <BR>
 
 **Desafio-4 - Casos de Uso:**<BR>
-<H5>
-Casos de Uso é uma técnica utilizada pelo mercado (algumas vagas de emprego pedem esse conhecimento) para especificar o comportamento externo do software, ele mostra como ocorre a interação “ator” e software. Dica: "ator" e "persona" são sinônimos neste contexto
+
+<H5>Casos de Uso é uma técnica utilizada pelo mercado (algumas vagas de emprego pedem esse conhecimento) para especificar o comportamento externo do software, ele mostra como ocorre a interação “ator” e software. Dica: "ator" e "persona" são sinônimos neste contexto.
 Escrever os Casos de Uso.<BR>
 Comece identificando o ator, em seguida faça o diagrama e para concluir descreva o caso de uso, veja o exemplo:<BR>
 <BR>
-Diagrama de Caso de Uso<BR></H5>
+  Diagrama de Caso de Uso<BR></H5>
 <BR>
-![](http://www.etecnologia.com.br/images/fars/ucfazerlogin.png)
----
+
+<img src="http://www.etecnologia.com.br/images/fars/ucfazerlogin.png"><BR>
+<HR>
 Nome: UC#1 - Fazer Login<BR>
 Ponto de ativação: Este caso de uso começa quando o cliente acessa a App e seleciona a opção fazer login.<BR>
 Ator: Cliente<BR>
@@ -114,7 +115,7 @@ Cenário/Fluxo	| Pós-condição	| Autorização de acesso
 -----|-----|----
 Fluxo normal |	Verdadeira |	Sim
 Fluxo de Exceção | Falsa	| Não 
----
+<HR>
 <BR>
 
 **Desafio-5 - Requisitos Emergentes:**<BR> 
