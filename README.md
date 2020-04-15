@@ -64,7 +64,7 @@ E: minha senha de acesso
 Então: Recebo a mensagem de erro <e-mail ou senha inválido>
 
 E-mail |	Senha |	Resultado Esperado
----
+-------|--------|
 Jose.ferreira@email.com |
 ****** | Mensagem de erro
 
