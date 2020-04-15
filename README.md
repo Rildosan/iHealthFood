@@ -37,7 +37,7 @@ Como <persona> posso <ação>
 para fazer meu <valor>.
 
 Exemplo:
-“Como cliente posso fazer “login” com e-mail e senha 
+“Como cliente posso fazer _login_ com e-mail e senha 
 para fazer meu pedido.”
 
 **Desafio-3 - Especificação de Requisitos (baseada em US e BDD):**
@@ -45,14 +45,15 @@ para fazer meu pedido.”
 <template> Estrutura de escrita dos cenários:
 
 Funcionalidade: <nome da funcionalidade ou item do Backlog><BR>
-Ator: Cliente<BR>
+Ator: <nome do ator><BR>
 Cenário: <descrição do cenário><BR>
 Given (Dado): <Estado inicial ou ponto de partida><BR>
-When (Quando) <Ação a ser realizada><BR>
-Then (Então) <Pós-condição, o que deve acontecer após a execução da ação><BR>
+When (Quando) <Ações que serão realizadas><BR>
+Then (Então) <Pós-condição, o que deve acontecer após a execução das ações><BR>
 
 <exemplo>
 Funcionalidade: Fazer Login
+Ator: Cliente
 
 Cenário: Fazer login com sucesso
 Dado: Que entro na aplicação
@@ -63,7 +64,6 @@ Então: Recebo a autorização de acesso a App
 E-mail |	Senha |	Resultado Esperado
 -------|--------|-------
 Jose.ferreira@email.com |****** | Autorizado (Login com sucesso)
-
 
 Cenário: Fazer login com insucesso
 Dado: Que entro na aplicação
@@ -77,7 +77,6 @@ Jose.ferreira@email.com |****** | Mensagem de erro
 
 **Importante:**
 Uma boa prática é sinalizar os itens do Backlog que estão prontos para serem desenvolvidos. Por isso, após a especificação dos requisitos, os itens do Backlog correspondentes devem estar com status de DoR (Definition of Ready – Definição de Pronto).
-
 
 **Desafio-4 - Casos de Uso:** 
 
