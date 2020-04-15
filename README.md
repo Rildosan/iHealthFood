@@ -78,15 +78,14 @@ Jose.ferreira@email.com |****** | Mensagem de erro
 Uma boa prática é sinalizar os itens do Backlog que estão prontos para serem desenvolvidos. Por isso, após a especificação dos requisitos, os itens do Backlog correspondentes devem estar com status de DoR (Definition of Ready – Definição de Pronto).<BR>
 <BR>
 
-**Desafio-4 - Casos de Uso:**<BR>
+<B>Desafio-4 - Casos de Uso:</B><BR>
 
-<H5>Casos de Uso é uma técnica utilizada pelo mercado (algumas vagas de emprego pedem esse conhecimento) para especificar o comportamento externo do software, ele mostra como ocorre a interação “ator” e software. Dica: "ator" e "persona" são sinônimos neste contexto.
+Casos de Uso é uma técnica utilizada pelo mercado (algumas vagas de emprego pedem esse conhecimento) para especificar o comportamento externo do software, ele mostra como ocorre a interação “ator” e software. Dica: "ator" e "persona" são sinônimos neste contexto.
 Escrever os Casos de Uso.<BR>
 Comece identificando o ator, em seguida faça o diagrama e para concluir descreva o caso de uso, veja o exemplo:<BR>
 <BR>
-  Diagrama de Caso de Uso<BR></H5>
+  Diagrama de Caso de Uso<BR>
 <BR>
-
 <img src="http://www.etecnologia.com.br/images/fars/ucfazerlogin.png"><BR>
 <HR>
 Nome: UC#1 - Fazer Login<BR>
