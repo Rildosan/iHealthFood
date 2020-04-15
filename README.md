@@ -74,7 +74,7 @@ E-mail |	Senha |	Resultado Esperado
 -------|--------|-------
 Jose.ferreira@email.com |****** | Mensagem de erro
 <BR>
-<B>Importante:</B>BR>
+<B>Importante:</B><BR>
 Uma boa prática é sinalizar os itens do Backlog que estão prontos para serem desenvolvidos. Por isso, após a especificação dos requisitos, os itens do Backlog correspondentes devem estar com status de DoR (Definition of Ready – Definição de Pronto).<BR>
 <BR>
 
