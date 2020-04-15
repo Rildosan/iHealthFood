@@ -33,59 +33,59 @@ apresentados abaixo:
 **Desafio-2 – Histórias do Usuário:** 
 - Escrever as histórias do usuário. 
 <template>
-Como *[persona]* posso *[ação]*
-para fazer meu *[valor]*.
+Como [persona] posso [ação]
+para fazer meu [valor].
 
 Exemplo:
-“Como cliente posso fazer _login_ com e-mail e senha 
-para fazer meu pedido.”
+“Como cliente posso fazer _login_ com e-mail e senha para fazer meu pedido.”
 
-**Desafio-3 - Especificação de Requisitos (baseada em US e BDD):**
-- Fazer a especificação dos requisitos 
-<template> Estrutura de escrita dos cenários:
+**Desafio-3 - Especificação de Requisitos (baseada em US e BDD):**<BR>
+- Fazer a especificação dos requisitos <BR>
+<template> Estrutura de escrita dos cenários:<BR>
 
-Funcionalidade: [nome da funcionalidade ou item do Backlog] <BR>
+Funcionalidade: [nome da funcionalidade ou item do Backlog]<BR>
 Persona: [nome do persona]<BR>
 Cenário: [descrição do cenário]<BR>
 Given (Dado): [Estado inicial ou ponto de partida]<BR>
 When (Quando) [Ações que serão realizadas]<BR>
 Then (Então) [Pós-condição, o que deve acontecer após a execução das ações]<BR>
-
-<exemplo>
-Funcionalidade: Fazer Login
-Ator: Cliente
-
-Cenário: Fazer login com sucesso
-Dado: Que entro na aplicação
-Quando: Quando informo meu e-mail 
-E: minha senha de acesso
-Então: Recebo a autorização de acesso a App
-
+<BR>
+<exemplo><BR>
+Funcionalidade: Fazer Login<BR>
+Ator: Cliente<BR>
+<BR>
+Cenário: Fazer login com sucesso<BR>
+Dado: Que entro na aplicação<BR>
+Quando: Quando informo meu e-mail <BR>
+E: minha senha de acesso<BR>
+Então: Recebo a autorização de acesso a App<BR>
+<BR>
 E-mail |	Senha |	Resultado Esperado
 -------|--------|-------
 Jose.ferreira@email.com |****** | Autorizado (Login com sucesso)
 
-Cenário: Fazer login com insucesso
-Dado: Que entro na aplicação
-Quando: Quando informo meu e-mail
-E: minha senha de acesso
-Então: Recebo a mensagem de erro <e-mail ou senha inválido>
-
+Cenário: Fazer login com insucesso<BR>
+Dado: Que entro na aplicação<BR>
+Quando: Quando informo meu e-mail<BR>
+E: minha senha de acesso<BR>
+Então: Recebo a mensagem de erro "e-mail ou senha inválido"<BR>
+<BR>
 E-mail |	Senha |	Resultado Esperado
 -------|--------|-------
 Jose.ferreira@email.com |****** | Mensagem de erro
+<BR>
+**Importante:**<BR>
+Uma boa prática é sinalizar os itens do Backlog que estão prontos para serem desenvolvidos. Por isso, após a especificação dos requisitos, os itens do Backlog correspondentes devem estar com status de DoR (Definition of Ready – Definição de Pronto).<BR>
 
-**Importante:**
-Uma boa prática é sinalizar os itens do Backlog que estão prontos para serem desenvolvidos. Por isso, após a especificação dos requisitos, os itens do Backlog correspondentes devem estar com status de DoR (Definition of Ready – Definição de Pronto).
-
-**Desafio-4 - Casos de Uso:** 
+**Desafio-4 - Casos de Uso:** <BR>
 
 Casos de Uso é uma técnica utilizada pelo mercado (algumas vagas de emprego pedem esse conhecimento) para especificar o comportamento externo do software, ele mostra como ocorre a interação “ator” e software. Dica: "ator" e "persona" são sinônimos neste contexto
-Escrever os Casos de Uso. Comece identificando o ator, em seguida faça o diagrama e para concluir descreva o caso de uso, veja o exemplo:
-
-<exemplo>
-Diagrama de Caso de Uso
-
+Escrever os Casos de Uso.<BR>
+Comece identificando o ator, em seguida faça o diagrama e para concluir descreva o caso de uso, veja o exemplo:<BR>
+<BR>
+<exemplo><BR>
+Diagrama de Caso de Uso<BR>
+<BR>
 ![](http://www.etecnologia.com.br/images/fars/ucfazerlogin.png)
 ---
 Nome: UC#1 - Fazer Login<BR>
@@ -117,11 +117,11 @@ Fluxo de Exceção | Falsa	| Não
 ---
 <BR>
 
-**Desafio-5 - Requisitos Emergentes:** 
-
-Descobrir os Requisitos Não Funcionais emergentes (são aqueles requisitos que emergiram durante o fazimento da Especificação de Requisitos, eles também deve fazer parte da Especificação), importante ressaltar que na maioria das vezes eles não estão presentes no Backlog. Veja o exemplo:
+**Desafio-5 - Requisitos Emergentes:**<BR> 
 <BR>
-<exemplo>
-O item Fazer login quando implementado deverá ser feito em ambiente seguro e a senha deverá estar criptografada, para que isso aconteça teremos que especificar um requisito não funcional emergente. Neste caso, teremos um Requisito Não Funcional derivado de um Requisito Funcional. Podemos chamá-lo de Segurança de Acesso.
+Descobrir os Requisitos Não Funcionais emergentes (são aqueles requisitos que emergiram durante o fazimento da Especificação de Requisitos, eles também deve fazer parte da Especificação), importante ressaltar que na maioria das vezes eles não estão presentes no Backlog. Veja o exemplo:<BR>
+<BR>
+<exemplo><BR>
+O item Fazer login quando implementado deverá ser feito em ambiente seguro e a senha deverá estar criptografada, para que isso aconteça teremos que especificar um requisito não funcional emergente. Neste caso, teremos um Requisito Não Funcional derivado de um Requisito Funcional. Podemos chamá-lo de Segurança de Acesso.<BR>
 
 ![](http://www.etecnologia.com.br/images/fars/rnrnfinclude.png)
