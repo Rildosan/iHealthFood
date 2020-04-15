@@ -110,7 +110,7 @@ Fluxo de Exceção | Falsa	| Não
 <BR>
 
 **Desafio-5 - Requisitos Emergentes:** 
-- Descobrir os Requisitos Não Funcionais emergentes (são aqueles requisitos que emergiram durante o fazimento da Especificação de Requisitos, eles também deve fazer parte da Especificação), importante ressaltar que na maioria das vezes eles não estão presentes no Backlog. Veja o exemplo:
+Descobrir os Requisitos Não Funcionais emergentes (são aqueles requisitos que emergiram durante o fazimento da Especificação de Requisitos, eles também deve fazer parte da Especificação), importante ressaltar que na maioria das vezes eles não estão presentes no Backlog. Veja o exemplo:
 <BR>
 <exemplo>
 O item Fazer login quando implementado deverá ser feito em ambiente seguro e a senha deverá estar criptografada, para que isso aconteça teremos que especificar um requisito não funcional emergente. Neste caso, teremos um Requisito Não Funcional derivado de um Requisito Funcional. Podemos chamá-lo de Segurança de Acesso.
