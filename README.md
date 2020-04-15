@@ -79,13 +79,12 @@ Escrever os Casos de Uso. Comece identificando o ator, em seguida faça o diagra
 Diagrama de Caso de Uso
 
 ![](http://www.etecnologia.com.br/images/fars/ucfazerlogin.png)
-
+---
 Nome: UC#1 - Fazer Login
 Ponto de ativação: Este caso de uso começa quando o cliente acessa a App e seleciona a opção fazer login.
 Ator: Cliente
 Objetivo: Autorizar o acesso do cliente
 Pré-condição: Cliente cadastrado
-
 Fluxo Normal:
 1 - O cliente informa seu e-mail
 2 - O cliente informa sua senha 
@@ -106,6 +105,7 @@ Pós-condição: Cliente autorizado
 Cenário/Fluxo	Pós-condição	Autorização de acesso
 Fluxo normal	Verdadeira	Sim
 Fluxo de Exceção	Falsa	Não
+---
 
 **Desafio-5 - Requisitos Emergentes:** 
 - Descobrir os Requisitos Não Funcionais emergentes (são aqueles requisitos que emergiram durante o fazimento da Especificação de Requisitos, eles também deve fazer parte da Especificação), importante ressaltar que na maioria das vezes eles não estão presentes no Backlog. Veja o exemplo:
