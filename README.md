@@ -13,7 +13,7 @@ O trabalho do Analista de Requisitos começa no momento que os artefatos: Visão
 O workshop deve ser colaborativo, ou seja, participam o Dono de Negócio, Desenvolvedores e Testadores de forma ativa.
 
 Contudo, aqui você trabalhará sozinho, isso é comum em algumas empresas, existe a opção de chamar seus amigos para ajuda-lo, antes
-de fazer os desafios leia e entenda a visão do serviço e o Backlog, eles estão na pasta de __Produto__ :
+de fazer os desafios leia e entenda a visão do serviço e o Backlog, eles estão na pasta de __Produto__:
 - **Visão do Serviço**: A visão, escopo do serviço, mostra de forma clara para quem é destinado o serviço, quais são as caracteristicas-chave e diferenciais de mercado. 
 - **Backlog do Serviço**: Lista com tudo que é necessário para desenvolvimento do serviço (iHealthFood). O Backlog é o principal artefato para especificar os requisitos.
 
@@ -27,7 +27,7 @@ Recomendamos a leitura dos arefatos de negócio devem ser lidos e compreendidos,
 Para que você exercite suas habilidades de Análise de Requisitos de Software propomos 6 desafios 
 apresentados abaixo:
 
-**Desafio-1 – Identificação dos Requisitos que devem ser especificados. Você deve levar em consideração o nível de prioridade dos itens do Backlog:**
+**Desafio-1 – Identificação dos itens do Backlog que devem ser especificados. Leve em consideração o nível de prioridade dos itens:**
 - Definir quais itens do Backlog de Serviço devem ser especificados.  
 
 **Desafio-2 – Histórias do Usuário:** 
