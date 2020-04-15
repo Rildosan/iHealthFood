@@ -80,31 +80,32 @@ Diagrama de Caso de Uso
 
 ![](http://www.etecnologia.com.br/images/fars/ucfazerlogin.png)
 ---
-Nome: UC#1 - Fazer Login
-Ponto de ativação: Este caso de uso começa quando o cliente acessa a App e seleciona a opção fazer login.
-Ator: Cliente
-Objetivo: Autorizar o acesso do cliente
-Pré-condição: Cliente cadastrado
-Fluxo Normal:
-1 - O cliente informa seu e-mail
-2 - O cliente informa sua senha 
-3 - O cliente clica no botão enviar
-4 - A App autêntica o cliente e a senha
-5 - A App autoriza o acesso do cliente
+Nome: UC#1 - Fazer Login<BR>
+Ponto de ativação: Este caso de uso começa quando o cliente acessa a App e seleciona a opção fazer login.<BR>
+Ator: Cliente<BR>
+Objetivo: Autorizar o acesso do cliente<BR>
+Pré-condição: Cliente cadastrado<BR>
+Fluxo Normal:<BR>
+1 - O cliente informa seu e-mail<BR>
+2 - O cliente informa sua senha <BR>
+3 - O cliente clica no botão enviar<BR>
+4 - A App autêntica o cliente e a senha<BR>
+5 - A App autoriza o acesso do cliente<BR>
+<BR>
+Fluxo Exceção:<BR>
+1 - O cliente informa seu e-mail<BR>
+2 - O cliente informa sua senha <BR>
+3 - O cliente clica no botão enviar<BR>
+4 - A App não autêntica o cliente e a senha<BR>
+5 - A App a exibe a mensagem erro: Senha ou e-mail inválido<BR>
+6 - A App não autoriza o acesso do cliente<BR>
+<BR>
+Pós-condição: Cliente autorizado<BR>
 
-Fluxo Exceção:
-1 - O cliente informa seu e-mail
-2 - O cliente informa sua senha 
-3 - O cliente clica no botão enviar
-4 - A App não autêntica o cliente e a senha
-5 - A App a exibe a mensagem erro: Senha ou e-mail inválido
-6 - A App não autoriza o acesso do cliente
-
-Pós-condição: Cliente autorizado
-
-Cenário/Fluxo	Pós-condição	Autorização de acesso
-Fluxo normal	Verdadeira	Sim
-Fluxo de Exceção	Falsa	Não
+Cenário/Fluxo	| Pós-condição	| Autorização de acesso
+-----|-----|----
+Fluxo normal |	Verdadeira |	Sim
+Fluxo de Exceção | Falsa	| Não 
 ---
 
 **Desafio-5 - Requisitos Emergentes:** 
