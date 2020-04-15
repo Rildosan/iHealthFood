@@ -53,9 +53,10 @@ Quando: Quando informo meu e-mail
 E: minha senha de acesso
 Então: Recebo a autorização de acesso a App
 
-E-mail	Senha	Resultado Esperado
-Jose.ferreira@email.com
-******	Autorizado (Login com sucesso)
+E-mail |	Senha |	Resultado Esperado
+-------|--------|-------
+Jose.ferreira@email.com |****** | Autorizado (Login com sucesso)
+
 
 Cenário: Fazer login com insucesso
 Dado: Que entro na aplicação
@@ -64,9 +65,8 @@ E: minha senha de acesso
 Então: Recebo a mensagem de erro <e-mail ou senha inválido>
 
 E-mail |	Senha |	Resultado Esperado
--------|--------|
-Jose.ferreira@email.com |
-****** | Mensagem de erro
+-------|--------|-------
+Jose.ferreira@email.com |****** | Mensagem de erro
 
 **Importante:**
 Uma boa prática é sinalizar os itens do Backlog estão prontos para serem desenvolvidos. Por isso, após a especificação dos requisitos, os itens do Backlog correspondentes devem estar com status de DoR (Definition of Ready – Definição de Pronto).
