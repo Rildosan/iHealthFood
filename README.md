@@ -20,10 +20,10 @@ Objetivo primário é especificar todos os requisitos de software que farão par
 Para que você exercite suas habilidades de Análise de Requisitos de Software propomos 6 desafios 
 apresentados abaixo:
 
-**Desafio-1 – Identificação dos Requisitos que devem ser especificados. Você deve levar em consideração o nível de prioridade dos itens do Backlog.**
+**Desafio-1 – Identificação dos Requisitos que devem ser especificados. Você deve levar em consideração o nível de prioridade dos itens do Backlog:**
 - Definir quais itens do Backlog de Serviço devem ser especificados.  
 
-**Desafio-2 – Histórias do Usuário** 
+**Desafio-2 – Histórias do Usuário:** 
 - Escrever as histórias do usuário. 
 <template>
 Como <persona> posso <ação> 
@@ -33,7 +33,7 @@ Exemplo:
 “Como cliente posso fazer “login” com e-mail e senha 
 para fazer meu pedido.”
 
-**Desafio-3 - Especificação de Requisitos (baseada em US e BDD)**
+**Desafio-3 - Especificação de Requisitos (baseada em US e BDD):**
 - Fazer a especificação dos requisitos 
 <template> Estrutura de escrita dos cenários:
 
@@ -69,5 +69,48 @@ E-mail |	Senha |	Resultado Esperado
 Jose.ferreira@email.com |****** | Mensagem de erro
 
 **Importante:**
-Uma boa prática é sinalizar os itens do Backlog estão prontos para serem desenvolvidos. Por isso, após a especificação dos requisitos, os itens do Backlog correspondentes devem estar com status de DoR (Definition of Ready – Definição de Pronto).
+Uma boa prática é sinalizar os itens do Backlog que estão prontos para serem desenvolvidos. Por isso, após a especificação dos requisitos, os itens do Backlog correspondentes devem estar com status de DoR (Definition of Ready – Definição de Pronto).
 
+**Desafio-4 - Casos de Uso:** 
+Casos de Uso é uma técnica utilizada pelo mercado (algumas vagas de emprego pedem esse conhecimento) para especificar o comportamento externo do software, ele mostra como ocorre a interação “ator” e software.
+Escrever os Casos de Uso. Comece identificando o ator, em seguida faça o diagrama e para concluir descreva o caso de uso, veja o exemplo:
+
+<exemplo>
+Diagrama de Caso de Uso
+
+![](http://www.etecnologia.com.br/images/fars/ucfazerlogin.png)
+
+Nome: UC#1 - Fazer Login
+Ponto de ativação: Este caso de uso começa quando o cliente acessa a App e seleciona a opção fazer login.
+Ator: Cliente
+Objetivo: Autorizar o acesso do cliente
+Pré-condição: Cliente cadastrado
+
+Fluxo Normal:
+1 - O cliente informa seu e-mail
+2 - O cliente informa sua senha 
+3 - O cliente clica no botão enviar
+4 - A App autêntica o cliente e a senha
+5 - A App autoriza o acesso do cliente
+
+Fluxo Exceção:
+1 - O cliente informa seu e-mail
+2 - O cliente informa sua senha 
+3 - O cliente clica no botão enviar
+4 - A App não autêntica o cliente e a senha
+5 - A App a exibe a mensagem erro: Senha ou e-mail inválido
+6 - A App não autoriza o acesso do cliente
+
+Pós-condição: Cliente autorizado
+
+Cenário/Fluxo	Pós-condição	Autorização de acesso
+Fluxo normal	Verdadeira	Sim
+Fluxo de Exceção	Falsa	Não
+
+**Desafio-5 - Requisitos Emergentes:** 
+- Descobrir os Requisitos Não Funcionais emergentes (são aqueles requisitos que emergiram durante o fazimento da Especificação de Requisitos, eles também deve fazer parte da Especificação), importante ressaltar que na maioria das vezes eles não estão presentes no Backlog. Veja o exemplo:
+
+<exemplo>
+O item Fazer login quando implementado deverá ser feito em ambiente seguro e a senha deverá estar criptografada, para que isso aconteça teremos que especificar um requisito não funcional emergente. Neste caso, teremos um Requisito Não Funcional derivado de um Requisito Funcional. Podemos chamá-lo de Segurança de Acesso.
+
+![](http://www.etecnologia.com.br/images/fars/rnrnfinclude.png)
