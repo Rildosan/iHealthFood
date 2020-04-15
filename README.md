@@ -110,6 +110,7 @@ Fluxo de Exceção | Falsa	| Não
 <BR>
 
 **Desafio-5 - Requisitos Emergentes:** 
+
 Descobrir os Requisitos Não Funcionais emergentes (são aqueles requisitos que emergiram durante o fazimento da Especificação de Requisitos, eles também deve fazer parte da Especificação), importante ressaltar que na maioria das vezes eles não estão presentes no Backlog. Veja o exemplo:
 <BR>
 <exemplo>
