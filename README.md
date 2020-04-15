@@ -43,7 +43,7 @@ Exemplo:
 - Fazer a especificação dos requisitos <BR>
 <template> Estrutura de escrita dos cenários:<BR>
 
-Funcionalidade: [nome da funcionalidade ou item do Backlog]<BR>
+Funcionalidade: nome da funcionalidade ou item do Backlog<BR>
 Persona: [nome do persona]<BR>
 Cenário: [descrição do cenário]<BR>
 Given (Dado): [Estado inicial ou ponto de partida]<BR>
