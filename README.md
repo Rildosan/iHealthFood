@@ -33,8 +33,8 @@ apresentados abaixo:
 **Desafio-2 – Histórias do Usuário:** 
 - Escrever as histórias do usuário. 
 <template>
-Como <persona> posso <ação> 
-para fazer meu <valor>.
+Como *[persona]* posso *[ação]*
+para fazer meu *[valor]*.
 
 Exemplo:
 “Como cliente posso fazer _login_ com e-mail e senha 
@@ -44,12 +44,12 @@ para fazer meu pedido.”
 - Fazer a especificação dos requisitos 
 <template> Estrutura de escrita dos cenários:
 
-Funcionalidade: <nome da funcionalidade ou item do Backlog><BR>
-Ator: <nome do ator><BR>
-Cenário: <descrição do cenário><BR>
-Given (Dado): <Estado inicial ou ponto de partida><BR>
-When (Quando) <Ações que serão realizadas><BR>
-Then (Então) <Pós-condição, o que deve acontecer após a execução das ações><BR>
+Funcionalidade: [nome da funcionalidade ou item do Backlog] <BR>
+Persona: [nome do persona]<BR>
+Cenário: [descrição do cenário]<BR>
+Given (Dado): [Estado inicial ou ponto de partida]<BR>
+When (Quando) [Ações que serão realizadas]<BR>
+Then (Então) [Pós-condição, o que deve acontecer após a execução das ações]<BR>
 
 <exemplo>
 Funcionalidade: Fazer Login
@@ -80,7 +80,7 @@ Uma boa prática é sinalizar os itens do Backlog que estão prontos para serem 
 
 **Desafio-4 - Casos de Uso:** 
 
-Casos de Uso é uma técnica utilizada pelo mercado (algumas vagas de emprego pedem esse conhecimento) para especificar o comportamento externo do software, ele mostra como ocorre a interação “ator” e software.
+Casos de Uso é uma técnica utilizada pelo mercado (algumas vagas de emprego pedem esse conhecimento) para especificar o comportamento externo do software, ele mostra como ocorre a interação “ator” e software. Dica: "ator" e "persona" são sinônimos neste contexto
 Escrever os Casos de Uso. Comece identificando o ator, em seguida faça o diagrama e para concluir descreva o caso de uso, veja o exemplo:
 
 <exemplo>
