@@ -24,7 +24,7 @@ Recomendamos a leitura dos arefatos de negócio devem ser lidos e compreendidos,
 - **Mapa de Fluxo de Valor**: Mostra quais as atividades devem ser feitas para garantir a geração de valor
 - **Regras de Negócio**: Apresenta todas as regras de negócio que devem ser aplicadas ao iHealthFood
 
-Para que você exercite suas habilidades de Análise de Requisitos de Software propomos 6 desafios 
+Para que você exercite suas habilidades de Análise de Requisitos de Software propomos 5 desafios 
 apresentados abaixo:
 
 **Desafio-1 – Identificação dos itens do Backlog que devem ser especificados. Leve em consideração o nível de prioridade dos itens:**
