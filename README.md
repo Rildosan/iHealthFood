@@ -9,7 +9,7 @@
 # Desafios de Análise de Requisitos de Software:
 **Objetivo primário dos Desafios é especificar todos os requisitos de software que farão partes das próximas Sprints.** 
 
-O trabalho do Analista de Requisitos começa no momento que os artefatos: Visão e Backlog do Serviço estão prontos, geralmente este trabalho acontece em um Workshop de Requisitos para descobrir os requisitos, entender as pessoas e negócio e especificar os requisitos. 
+O trabalho do Analista de Requisitos começa no momento que os artefatos: Visão e Backlog do Serviço estão prontos, geralmente este trabalho acontece em um Workshop de Requisitos para descobrir os requisitos, entender as pessoas, entender o negócio e especificar os requisitos. 
 O workshop deve ser colaborativo, ou seja, participam o Dono de Negócio, Desenvolvedores e Testadores de forma ativa.
 
 Contudo, aqui você trabalhará sozinho, isso é comum em aglumas empresas, existe a opção de chamar seus amigos para ajuda-lo, antes
