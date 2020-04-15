@@ -13,13 +13,13 @@ O trabalho do Analista de Requisitos começa no momento que os artefatos: Visão
 O workshop deve ser colaborativo, ou seja, participam o Dono de Negócio, Desenvolvedores e Testadores de forma ativa.
 
 Contudo, aqui você trabalhará sozinho, isso é comum em algumas empresas, existe a opção de chamar seus amigos para ajuda-lo, antes
-de fazer os desafios leia e entenda a visão do serviço e o Backlog, eles estão na pasta de __Produto__
+de fazer os desafios leia e entenda a visão do serviço e o Backlog, eles estão na pasta de __Produto__ :
 - **Visão do Serviço**: A visão, escopo do serviço, mostra de forma clara para quem é destinado o serviço, quais são as caracteristicas-chave e diferenciais de mercado. 
 - **Backlog do Serviço**: Lista com tudo que é necessário para desenvolvimento do serviço (iHealthFood). O Backlog é o principal artefato para especificar os requisitos.
 
 Recomendamos a leitura dos arefatos de negócio devem ser lidos e compreendidos, eles estão na pasta __Negócio__ isso ajuda no entendimento dos requisitos, são eles:
 - **Business Story**: Declaração do Problema 
-- **Modelo de Negócio**: Mostra a lógica de negócio e a geração de valor do iHealthFood
+- **Modelo de Negócio**: Mostra a lógica de negócio e como será gerado valor com iHealthFood
 - **Business Value**: Demonstra qual é valor de negócio que o iHealthFood deverá gerar.
 - **Mapa de Fluxo de Valor**: Mostra quais as atividades devem ser feitas para garantir a geração de valor
 - **Regras de Negócio**: Apresenta todas as regras de negócio que devem ser aplicadas ao iHealthFood
