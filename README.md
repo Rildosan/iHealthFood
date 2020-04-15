@@ -52,7 +52,7 @@ Then (Então) [Pós-condição, o que deve acontecer após a execução das aç�
 <BR>
 <exemplo><BR>
 Funcionalidade: Fazer Login<BR>
-Ator: Cliente<BR>
+Persona: Cliente<BR>
 <BR>
 Cenário: Fazer login com sucesso<BR>
 Dado: Que entro na aplicação<BR>
@@ -76,15 +76,15 @@ Jose.ferreira@email.com |****** | Mensagem de erro
 <BR>
 **Importante:**<BR>
 Uma boa prática é sinalizar os itens do Backlog que estão prontos para serem desenvolvidos. Por isso, após a especificação dos requisitos, os itens do Backlog correspondentes devem estar com status de DoR (Definition of Ready – Definição de Pronto).<BR>
+<BR>
 
-**Desafio-4 - Casos de Uso:** <BR>
-
+**Desafio-4 - Casos de Uso:**<BR>
+<H5>
 Casos de Uso é uma técnica utilizada pelo mercado (algumas vagas de emprego pedem esse conhecimento) para especificar o comportamento externo do software, ele mostra como ocorre a interação “ator” e software. Dica: "ator" e "persona" são sinônimos neste contexto
 Escrever os Casos de Uso.<BR>
 Comece identificando o ator, em seguida faça o diagrama e para concluir descreva o caso de uso, veja o exemplo:<BR>
 <BR>
-<exemplo><BR>
-Diagrama de Caso de Uso<BR>
+Diagrama de Caso de Uso<BR></H5>
 <BR>
 ![](http://www.etecnologia.com.br/images/fars/ucfazerlogin.png)
 ---
