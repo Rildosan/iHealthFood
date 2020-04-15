@@ -7,16 +7,23 @@
 **Para pessoas que tem intolerância a glúten e/ou lactose o iHealthFood é um serviço de entrega exclusivo através de aplicativo móvel e web, intuitivo, seguro e fácil de usar que oferece a possibilidade de encontrar os melhores restaurantes que fornecem comidas e pratos deliciosos sem glúten e sem lactose.Diferente de outros, nosso serviço é dedicado para clientes que se necessitam comprar alimentos sem glúten e sem lactose.**
 
 # Desafios de Análise de Requisitos de Software:
+**Objetivo primário dos Desafios é especificar todos os requisitos de software que farão partes das próximas Sprints.** 
 
-O trabalho do Analista de Requisitos começa no momento que os artefatos: Visão do Serviço e Backlog do Serviço estão prontos, neste instante acontecerá um Workshop de Requisitos para descobrir os requisitos, entender as pessoas e negócio e especificar os requisitos. Contudo, antes do workshop os artefatos de negócio devem ser lidos e compreendidos, isso ajuda no entendimento do negócio, são eles:
-- Business Story. Declaração do Problema 
-- Modelo de Negócio. Mostra a lógica de negócio e a geração de valor do iHealthFood
-- Business Value. Demonstra qual é valor de negócio que o iHealthFood deverá gerar.
-- Mapa de Fluxo de Valor. Mostra quais as atividades devem ser feitas para garantir a geração de valor
-- Regras de Negócio. Apresenta todas as regras de negócio que devem ser aplicadas ao iHealthFood
-
+O trabalho do Analista de Requisitos começa no momento que os artefatos: Visão e Backlog do Serviço estão prontos, geralmente este trabalho acontece em um Workshop de Requisitos para descobrir os requisitos, entender as pessoas e negócio e especificar os requisitos. 
 O workshop deve ser colaborativo, ou seja, participam o Dono de Negócio, Desenvolvedores e Testadores de forma ativa.
-Objetivo primário é especificar todos os requisitos de software que farão partes das próximas Sprints. 
+
+Contudo, aqui você trabalhará sozinho, isso é comum em aglumas empresas, existe a opção de chamar seus amigos para ajuda-lo, antes
+de fazer os desafios leia e entenda a visão do serviço e o Backlog, eles estão na pasta de __Produto__
+- **Visão do Serviço**: A visão, escopo do serviço, mostra de forma clara para quem é destinado o serviço, quais são as caracteristicas-chave e diferenciais de mercado. 
+- **Backlog do Serviço**: Lista com tudo que é necessário para desenvolvimento do serviço (iHealthFood). O Backlog é o principal artefato para especificar os requisitos.
+
+Recomendamos a leitura dos arefatos de negócio devem ser lidos e compreendidos, eles estão na pasta __Negócio__ isso ajuda no entendimento dos requisitos, são eles:
+- **Business Story**: Declaração do Problema 
+- **Modelo de Negócio**: Mostra a lógica de negócio e a geração de valor do iHealthFood
+- **Business Value**: Demonstra qual é valor de negócio que o iHealthFood deverá gerar.
+- **Mapa de Fluxo de Valor**: Mostra quais as atividades devem ser feitas para garantir a geração de valor
+- **Regras de Negócio**: Apresenta todas as regras de negócio que devem ser aplicadas ao iHealthFood
+
 Para que você exercite suas habilidades de Análise de Requisitos de Software propomos 6 desafios 
 apresentados abaixo:
 
