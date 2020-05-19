@@ -1,5 +1,5 @@
 # iHealthFood
-É um projeto de plataforma de negócio digital multilateral, envolve B2C e B2B, aberto, para demonstrar como desenvolver uma solução de delivery exclusiva para pessoas que possuem intolerância a glúten e lactose, baseado em experiências e fatos reais. Neste projeto enfatizamos o trabalho de **análise de requisitos** que deve ser feito para construção de software de valor.
+É um projeto de plataforma de negócio digital multilateral, envolve B2C e B2B, aberto, para demonstrar como desenvolver uma solução de delivery exclusiva para pessoas que possuem intolerância a glúten e lactose, baseado em experiências e fatos reais. Neste projeto enfatizamos a **Jornada de Análise de Negócio** aplicada a **Gestão de Requisitos de Software** com objetivo de construir software de valor.
 
 ![](http://www.etecnologia.com.br/images/fars/banner-ihealthfood.png)
 
